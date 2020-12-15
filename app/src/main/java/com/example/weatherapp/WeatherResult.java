@@ -5,6 +5,9 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 
 public class WeatherResult {
+
+
+    
     @SerializedName("coord")
     public Coord coor;
     @SerializedName("weather")
